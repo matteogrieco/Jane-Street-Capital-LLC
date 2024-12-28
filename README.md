@@ -1,4 +1,4 @@
-Cette compétition demande de modéliser des flux de données financiers complexes. Les défis incluent la gestion de séries temporelles non stationnaires, des données anonymisées et des restrictions d’API. 
+Cette compétition demande de modéliser des flux de données financières complexes. Les défis sont la gestion de séries temporelles non stationnaires, des données anonymisées et des restrictions d’API. 
 
 
 - Le problème implique des flux de données dynamiques, difficiles à prévoir avec précision.
@@ -14,11 +14,11 @@ Le fichier `train.parquet` contient des données historiques et des métadonnée
   - `feature_[00...78]` : Caractéristiques anonymisées.
   - `responder_[0...8]` : Valeurs entre -5 et 5. `responder_6` est la cible principale.
 
-  Les Particularités
+  Les Particularités:
   - Les valeurs extrêmes et les ajouts fréquents de nouvelles données rendent les prédictions instables.
   - Les tests nécessitent une soumission complète, même pour des vérifications simples.
 
-    En résumé, les données comprennent des valeurs extrêmes, et les données historiques suivent une structure linéaire. Cependant, l'ajout progressif de nouvelles données entraîne une volatilité importante des prédictions.
+    En résumé, les données comprennent des valeurs extrêmes, et les données suivent une structure linéaire. Cependant, l'ajout progressif de nouvelles données entraîne une volatilité importante des prédictions.
     De plus, la méthode API utilisée impose de soumettre une version de test complète à chaque fois ! 
     Cela signifie que je dois préparer une version fictive pour m'assurer que la soumission fonctionne (même lorsque je souhaite uniquement tester ou debug).
     En réalité, ce processus est complexe à manipuler.
