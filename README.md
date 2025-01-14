@@ -21,4 +21,4 @@ Le fichier `train.parquet` contient des données historiques et des métadonnée
     En résumé, les données comprennent des valeurs extrêmes, et les données suivent une structure linéaire. Cependant, l'ajout progressif de nouvelles données entraîne une volatilité importante des prédictions.
     De plus, la méthode API utilisée impose de soumettre une version de test complète à chaque fois ! 
     Cela signifie que je dois préparer une version fictive pour m'assurer que la soumission fonctionne (même lorsque je souhaite uniquement tester ou debug).
-    En réalité, ce processus est complexe à manipuler.
+    En réalité, ce processus est plutôt complexe à manipuler.
