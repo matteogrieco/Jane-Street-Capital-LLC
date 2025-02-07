@@ -15,7 +15,7 @@ Le fichier `train.parquet` contient des données historiques et des métadonnée
   - `feature_[00...78]` : Caractéristiques anonymisées.
   - `responder_[0...8]` : Valeurs entre -5 et 5. `responder_6` est la cible principale.
 
-  Les Particularités:
+  Les particularités:
   - Les valeurs extrêmes et les ajouts fréquents de nouvelles données rendent les prédictions instables.
   - Les tests nécessitent une soumission complète, même pour des vérifications simples.
 
