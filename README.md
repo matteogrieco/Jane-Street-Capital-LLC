@@ -1,5 +1,6 @@
 Cette compétition demande de modéliser des flux de données financières complexes. 
-(Les défis de cette compétition sont : la présence de séries temporelles non stationnaires, des données anonymisées et des restrictions d’API)
+
+Les défis de cette compétition sont : la présence de séries temporelles non stationnaires, des données anonymisées et des restrictions d’API
 
 
 - Le problème implique des flux de données dynamiques, difficiles à prévoir avec précision.
